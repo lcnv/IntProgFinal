@@ -1,23 +1,43 @@
+ul{
+  list-style-type:none;
+  padding-left:0px;
+}
+h3, .h3{
+  margin-top:10px;
+}
+.tg_header{
+  border:2px solid black;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
 .tracked_guilds{
-  
+  background:green;
+  list-style-type:none;
+  text-align:left;
 }
 .guild_info{
-  
+  background:#fff;
 }
 .selected_guild{
   
 }
 .achievements{
-  
+  background:#0cf;
+  text-align:left;
 }
 
 .members{
-  
+  background:#09f;
+  text-align:left;
 }
 
 .selected_member{
-  
+  background:#06f;
+  text-align:left;
 }
 .glist_element{
+  background:rgba(0,0,0,.1);
+  margin:2px;
   
 }
