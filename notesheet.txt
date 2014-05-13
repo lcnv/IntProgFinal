@@ -1,0 +1,21 @@
+Project Notesheet
+
+
+
+To Do:
+-finsh html pages
+-work on css
+-create db tables
+-work with api
+
+
+
+
+users table: profile name, login password, last server
+
+	tracked items table: username, item name, server
+
+	tracked guilds table: username, guild name, server
+do tables not need to have a primary key?
+what is the difference between a model and a table?
+
