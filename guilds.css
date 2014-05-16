@@ -5,6 +5,17 @@ ul{
 h3, .h3{
   margin-top:10px;
 }
+body, html {
+  height: 100%;
+  background:#ff6;
+}
+.nav{
+ /* background:#bbb;*/
+  width:100%;
+}
+.shell{
+  height:100%;
+}
 .tg_header{
   border:2px solid black;
   text-align:center;
@@ -15,9 +26,11 @@ h3, .h3{
   background:green;
   list-style-type:none;
   text-align:left;
+  height:100%;
 }
 .guild_info{
-  background:#fff;
+  background:#aaa;
+  height:100%;
 }
 .selected_guild{
   
