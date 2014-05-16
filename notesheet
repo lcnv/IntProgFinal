@@ -19,3 +19,13 @@ users table: profile name, login password, last server
 do tables not need to have a primary key?
 what is the difference between a model and a table?
 how to get around the "allow access" problem?
+
+
+5/16:
+Nick:
+-finish css
+-get boxes to work corectly
+
+Chris:
+-get search to populate
+-get app on heroku
