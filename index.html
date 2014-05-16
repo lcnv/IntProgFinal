@@ -23,9 +23,9 @@ $('.dropdown-toggle').dropdown();
   <div class="item_header col-sm-12 col-md-12">
     <h1>Item Search</h1>
   </div>
-    <div class="server_dd col-sm-3 col-md-3">
   <div class="item_form col-sm-12 col-md-12">
-  <form action="">
+    <div class="server_dd col-sm-4 col-md-4">
+      <form action="">
 <select name="itemServers">
 <option value="Aegwynn">Aegwynn</option>
 <option value="Aerie%20Peak">Aerie Peak</option>
@@ -275,12 +275,13 @@ $('.dropdown-toggle').dropdown();
 <option value="Zuluhed">Zuluhed</option>
 </select>
 </form>
+    </div>
     <div class="wtf_item col-sm-9 col-md-9">
       <form name="input" action="index.html" method="get">
          Item: <input type="text" name="searchItem" id="searchItem">
-         <button type="button" value="Search" onclick="return searchClick();">Search</button>
+         <button type="button" value="Search" onclick="return isearchClick();">Search</button>
          <script type="text/javascript">
-            function searchClick() {
+            function isearchClick() {
                alert(document.getElementById("searchItem").value);
                return true;
             }
@@ -295,14 +296,13 @@ $('.dropdown-toggle').dropdown();
     <p>this is where the items go with checkboxes next to them</p>
   </div>
 </div>
-
 <!-- the guild side -->
 <div class="guild_search col-sm-6 col-md-6">
   <div class="guild_header col-sm-12 col-md-12">
     <h1>Guild Search</h1>
   </div>
   <div class="guild_form col-sm-12 col-md-12">
-    <div class="server_dd col-sm-3 col-md-3">
+    <div class="server_dd col-sm-4 col-md-4">
       <form action="">
 <select name="guildServers">
 <option value="Aegwynn">Aegwynn</option>
@@ -556,7 +556,7 @@ $('.dropdown-toggle').dropdown();
     </div>
     <div class="wtf_guild col-sm-9 col-md-9">
       <form name="input" action="index.html" method="get">
-         Item: <input type="text" name="searchGuild" id="searchGuild">
+         Guild: <input type="text" name="searchGuild" id="searchGuild">
          <button type="button" value="Search" onclick="return gsearchClick();">Search</button>
          <script type="text/javascript">
             function gsearchClick() {
