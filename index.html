@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" src="/js/lib/bootstrap-2.0.2.js"></script>
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
@@ -17,7 +17,7 @@ $('.dropdown-toggle').dropdown();
   <li><a href="/items.html">Items</a></li>
   <li><a href="/guilds.html">Guilds</a></li>
 </ul>
-
+<div class="shell col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
 <!-- the item side -->
 <div class="item_search col-sm-6 col-md-6">
   <div class="item_header col-sm-12 col-md-12">
@@ -278,7 +278,7 @@ $('.dropdown-toggle').dropdown();
     </div>
     <div class="wtf_item col-sm-9 col-md-9">
       <form name="input" action="index.html" method="get">
-         Item: <input type="text" name="searchItem" id="searchItem">
+         Item:    <input type="text" name="searchItem" id="searchItem">
          <button type="button" value="Search" onclick="return isearchClick();">Search</button>
          <script type="text/javascript">
             function isearchClick() {
@@ -573,6 +573,7 @@ $('.dropdown-toggle').dropdown();
   <div class="guild_results col-sm-12 col-md-12">
     <p>this is where the guilds go with checkboxes next to them</p>
   </div>
+</div>
 </div>
 <div class="footer">
   <div class="container">

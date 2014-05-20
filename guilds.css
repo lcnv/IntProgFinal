@@ -5,36 +5,68 @@ ul{
 h3, .h3{
   margin-top:10px;
 }
+html {
+  height: 100%;
+  background:#fff;
+}
+body{
+  height:100%;
+  background:#3c3;
+  
+}
+.nav{
+  width:100%;
+  height:50px;
+  
+}
+.shell{
+  height:88%;
+  display:table;
+  
+}
+.list_shell{
+  height:65%;
+}
 .tg_header{
   border:2px solid black;
   text-align:center;
   margin-top:10px;
   margin-bottom:10px;
+  background:#aaa;
 }
 .tracked_guilds{
   background:green;
   list-style-type:none;
   text-align:left;
+  height:100%;
 }
 .guild_info{
-  background:#fff;
+  background:#ddd;
+  height:100%;
 }
-.selected_guild{
-  
+.selected_guild_header{
+  padding:10px;
+  height:30%;
 }
 .achievements{
   background:#0cf;
   text-align:left;
+  height:100%;
+  margin:5px;
 }
 
 .members{
   background:#09f;
   text-align:left;
+  height:100%;
+  margin:5px;
 }
 
 .selected_member{
   background:#06f;
   text-align:left;
+  height:100%;
+  margin:5px;
 }
 .glist_element{
   background:rgba(0,0,0,.1);

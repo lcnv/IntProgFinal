@@ -1,13 +1,26 @@
 
-
+html {
+  height: 100%;
+  background:#fff;
+}
+body{
+  height:100%;
+  background:rgb(134,0,134);
+  font-size:15px;
+}
 .nav{
   width:100%;
+}
+.shell{
+  height:88%;
+  
 }
 .header{
   
 }
 .item_search{
   background:#aaa;
+  height:100%;
 }
 .item_header{
   
@@ -26,6 +39,7 @@
 }
 .guild_search{
   background:#bbb;
+  height:100%;
 }
 .guild_header{
   
