@@ -25,6 +25,8 @@ how to get around the "allow access" problem?
 Nick:
 -finish css
 -get boxes to work corectly
+-figure out to get a sticky header to work
+-see if the "clearfix" or the ::before and ::after conventions have value
 
 Chris:
 -get search to populate

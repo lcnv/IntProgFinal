@@ -39,3 +39,26 @@
 .guild_results{
   
 }
+.footer{
+ 
+  background:#222;
+  color:#999;
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  
+}
+.name{
+/*float:left;*/
+text-align:right;
+margin-bottom:20px;
+/*padding-left:72px;*/
+font-size:24px;
+}
+.authors{
+margin:22px 0px 10px 0px;
+/*padding:1px 1px 1px 1px;*/
+font-size:17px;
+text-align:left;
+
+}
